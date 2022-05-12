@@ -1,0 +1,52 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<h1>{{title}}</h1>
+ 
+<div>
+  <div>
+    <label>Valor Investimento: </label>
+    <input [(ngModel)]="request.ValorInvestimento" />
+  </div>
+  <div>
+    <label>Prazo Meses: </label>
+    <input [(ngModel)]="request.PrazoMeses" />
+  </div>
+  <div>
+    <br>
+    <button (click)="calculateCDB()">Calcular CDB</button>
+  </div>
+</div>
+ <br>
+<table class='table'>
+  <thead>
+    <tr>
+      <th>Resultado Bruto</th>
+      <th>|</th>
+      <th>Resultado Liquido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{response.ResultadoBruto}}</td>
+      <td>|</td>
+      <td>{{response.ResultadoLiquido}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<router-outlet></router-outlet>

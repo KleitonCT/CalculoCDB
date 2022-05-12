@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCDB.API", "CalculoCDB.API\CalculoCDB.API.csproj", "{1B5677F4-60C0-4DC5-A82A-476411E6C7AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCDB.Domain", "CalculoCDB.Domain\CalculoCDB.Domain.csproj", "{E0F703AD-CEAE-4169-B9B1-5FBBED1DADD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCDB.Services", "CalculoCDB.Services\CalculoCDB.Services.csproj", "{97DC6A87-7608-4358-B920-419F36E144A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoCDB.Test", "CalculoCDB.Test\CalculoCDB.Test.csproj", "{A6B33EE6-FB17-499E-8463-0848FD0C4122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Site", "Site", "{139CDAE3-955A-4DA0-85CE-CE0E6BE9ADE9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CalculoCDB(1)", "Site\CalculoCDB\", "{A0A3C951-32CC-450E-A2AB-F635B84E794A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56494"
+		Debug.AspNetCompiler.PhysicalPath = "Site\CalculoCDB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56494\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56494"
+		Release.AspNetCompiler.PhysicalPath = "Site\CalculoCDB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56494\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56494"
+		SlnRelativePath = "Site\CalculoCDB\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B5677F4-60C0-4DC5-A82A-476411E6C7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5677F4-60C0-4DC5-A82A-476411E6C7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5677F4-60C0-4DC5-A82A-476411E6C7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5677F4-60C0-4DC5-A82A-476411E6C7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F703AD-CEAE-4169-B9B1-5FBBED1DADD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F703AD-CEAE-4169-B9B1-5FBBED1DADD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F703AD-CEAE-4169-B9B1-5FBBED1DADD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F703AD-CEAE-4169-B9B1-5FBBED1DADD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97DC6A87-7608-4358-B920-419F36E144A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DC6A87-7608-4358-B920-419F36E144A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DC6A87-7608-4358-B920-419F36E144A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DC6A87-7608-4358-B920-419F36E144A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B33EE6-FB17-499E-8463-0848FD0C4122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B33EE6-FB17-499E-8463-0848FD0C4122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B33EE6-FB17-499E-8463-0848FD0C4122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B33EE6-FB17-499E-8463-0848FD0C4122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A3C951-32CC-450E-A2AB-F635B84E794A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A3C951-32CC-450E-A2AB-F635B84E794A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A3C951-32CC-450E-A2AB-F635B84E794A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A3C951-32CC-450E-A2AB-F635B84E794A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0A3C951-32CC-450E-A2AB-F635B84E794A} = {139CDAE3-955A-4DA0-85CE-CE0E6BE9ADE9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB5C7620-0DFF-4B2C-B16E-9ADD03FDFCD6}
+	EndGlobalSection
+EndGlobal
